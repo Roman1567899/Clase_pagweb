@@ -449,6 +449,53 @@ main .products .name
     left: 130px;
 }
 
+main .products .parrafos
+{
+    font-size: 13px;
+    font-weight: bolder;
+    position: absolute;
+    bottom: -80px; 
+    left: 150px;
+
+}
+
+main .products .parrafo
+{
+    font-size: 13px;
+    font-weight: bolder;
+    position: absolute;
+    bottom: -80px; 
+    left: 125px;
+}
+
+main .products .btn_detail
+{
+    padding: 5px;
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    bottom: -120px; 
+    left: 120px;
+    border-radius: 5px;
+    border: none; 
+    color: var(--light-color);
+    background-color: var(--primary-color);
+}
+
+main .products .btn_details
+{
+    padding: 5px;
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    bottom: -120px; 
+    left: 150px;
+    border-radius: 5px;
+    border: none; 
+    color: var(--light-color);
+    background-color: var(--primary-color);
+}
+
 main .products .btn_products 
 {
     width: 190px;
@@ -475,3 +522,4 @@ main .products .btn_products:hover
 /*Hola*/
 
 
+/*algo ajua*/
