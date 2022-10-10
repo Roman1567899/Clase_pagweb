@@ -366,6 +366,12 @@ main .banner2 button
     font-size: 15px;
     color:var(--dark-color);
 }
+
+main .banner2 button:hover
+{
+    background-color: var(--primary-color);
+    color: var(--light-color);
+}
 /*Fin banner2*/
 
 
@@ -720,8 +726,8 @@ footer p a
 
     header .covid button
     {
-        width: 200px;
-        height: 55px;
+        width: 300px;
+        height: 65px;
         border-radius:17px;
         border: none;
         margin-right: 20px;
@@ -731,7 +737,7 @@ footer p a
 
     header .covid button .info_btn
     {
-        font-size:20px;
+        font-size:35px;
     }
 
     header .covid p
@@ -741,118 +747,551 @@ footer p a
 
     header .covid .parrf
     {
+        font-size: 35px;
         position: relative;
         left:-15px;
     }
 
     header .menu 
+    {
+        width: 100%;
+        height: 65px;
+        display: flex;
+        align-items: center;
+        padding: 20px 90px 0 60px;
+        color: var(--light-color);
+        justify-content: space-between;   
+    }
+
+    header .menu div 
+    {
+    
+        width: 100px;
+        height: 80px;
+        position: relative;
+        bottom:5px;
+        /* display: flex;
+        justify-content: space-between;
+        align-items: center; */
+        background-image: url(img/img_media/menu.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+    }
+    header .menu div .desplegable
+    {
+        display: none;
+    }
+
+    header .menu div:hover .desplegable
+    {
+        width: 250px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction:column;
+        gap: 10px;
+        position:absolute;
+        bottom: -290px;
+        left:-85px;
+        background-color: var(--primary-color);
+        background-image: none;
+    
+    }
+
+    header .menu div a
+    {
+        height: 35px;
+        width: 75px;
+        font-size: 35px;
+        padding-top: 8px;
+        border-radius: 5px;
+        text-align: center;
+        text-decoration: none;
+        color: var(--light-color);
+        display: inline-block;
+        transition: all 0.5s ease;
+    
+    }
+
+    header .menu div a:hover 
+    {
+        width: 80%;
+        height: 15%;
+        background-color: var(--secondary-color);
+    }
+
+    header .menu div button
+    {
+        margin-top: 20px;
+        width: 55px;
+        height: 45px;
+        border-radius: 5px;
+        background-color: var(--secondary-color);
+        background-image: url(img/Carrito_de_compras.svg);
+        background-repeat: no-repeat;
+        background-size: 40%;
+        background-position: center;
+        border:none;
+    }
+
+    header .menu div button span
+    {
+        width: 20px;
+        height: 20px;   
+        padding-top: 2px;
+        border-radius: 50%;
+        display: inline-block;
+        position: relative;
+        bottom: 20px;
+        left:22px;
+        text-align: center;
+        background-color: var(--light-color);
+    }
+
+    header .menu span 
+    {
+
+        width: 100px;
+        height: 90px;
+        background-image: url(img/logo.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position: 100%;
+        /* background-color: aqua; */
+    }
+    /* Fin header */
+
+/*Inicio main */
+
+    /*Inicio main*/
+    main
+    {
+        display:inline-block;
+        margin-top:150px;
+    }
+
+    /*Inicio banner*/
+    main .banner 
+    {
+        width:80%;
+        height: 600px;
+        display:flex;
+        justify-content:left;
+        align-items: left;
+        flex-direction:column;
+        gap: 10px;
+        background-image: url(img/hombre_montaña.jpg);
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size: 200%;
+        border: none;
+    } 
+
+    main .banner h1
+    {
+    
+        /*bottom: 200px;*/
+        width: 600px;
+        height:120px;
+        margin-top:170px ;
+        margin-left:200px;
+        font-size: 60px;
+        color: var(--light-color);
+    } 
+
+    main .banner p
+    {
+        width: 650px;
+        height:70px;
+        margin-left: 200px;
+        font-size: 35px;
+        color: var(--light-color);    
+    } 
+
+    main .banner button
+    {
+        height: 85px;
+        width: 340px;
+        margin-top: 70px;
+        margin-left: 200px;
+        font-size: 35px;
+        border-radius: 10px ;
+        border-color: #fff;
+        color: var(--light-color);
+        background-color: transparent;
+    }
+
+    main .banner button:hover
+    {
+        background-color: #fff;
+        color: var(--secondary-color);
+    } 
+    /*Fin banner*/
+
+    /*Inicio info*/
+main .info
+{   
+    width: 80%;
+    height: 100%;
+} 
+
+main .info .way 
+{
+    width: 150%;
+    height: 200px;
+    display: inline-block;
+}
+main .info .way .titles 
+{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background-color: #fff;
+}
+
+main .info .way .titles span 
+{
+    position: absolute;
+    top: 40px;
+    left: 310px;
+    font-size: 40px;
+}
+
+main .info .way .titles h2
+{
+    position: absolute;
+    top: 75px;
+    left: 300px; 
+    font-size: 65px;
+}
+
+main .info .way .info2
+{
+    height: 65%;
+    width: 50%;
+    margin-left:  130px;
+    padding-top: 20px;
+    font-size: 35px;
+    background-color: #fff;
+}
+
+main .container_cuadro
 {
     width: 100%;
-    height: 65px;
-    display: flex;
-    align-items: center;
-    padding: 20px 90px 0 60px;
-    color: var(--light-color);
-    justify-content: space-between;   
+    height: 100%;
+    display:inline-block;
+    padding:10px 40px;
 }
 
-header .menu div 
+main .container_cuadro article .cuadros
 {
-    
-    width: 100px;
-    height: 80px;
+    margin: 5px 250px;
+    height: 350px;
+    width: 330px;
+    border-radius: 5px;
+    background-color: var(--secondary-color);
+}
+main .container_cuadro article .cuadros .numbers
+{
     position: relative;
-    bottom: 5   px;
-    /* display: flex;
-    justify-content: space-between;
-    align-items: center; */
-    background-image: url(img/img_media/menu.png);
+    top: 40px;
+    left:30px;
+    font-size: 40px;
+    color: var(--light-color);   
+}
+
+main .container_cuadro article .cuadros .hs
+{
+    position: relative;
+    top: 90px;
+    left:5px;
+    text-align: center;
+    font-size: 40px;
+    color: var(--light-color);
+}
+
+main .container_cuadro .texts
+{
+    font-size: 35px;
+    position: relative;
+    bottom: 100px;  
+    left: 250px;
+    margin: 10px 0 150px 0;
+    padding-bottom: 20px;
+    height: 100px;
+    width: 330px;
+    color: var(--dark-color);    
+}
+
+main .container_cuadro article .img
+{
+    position: relative;
+    left: 500px;
+    bottom: 95px;
+    width: 20px;
+    height: 90px;
+    background-repeat:no-repeat;
+    
+}
+
+main .container_cuadro article .img_triangule
+{
+    position: relative;
+    left: 445px;
+    bottom: 95px;
+    width: 20px;
+    height: 90px;
+    background-repeat:no-repeat;
+}
+    /*Inicio info*/
+
+    /*inicio banner2*/
+main .banner2
+{
+    position:relative;
+    width: 75%;
+    height: 500px;
+    background-image: url(img/banner2.jpg);
     background-repeat: no-repeat;
+    background-size: 200%;
     background-position: center;
-    background-size: 100%;
 }
 
-header .menu div .desplegable
+main .banner2 h2
 {
-    display: none;
+    height: 100px;
+    width: 550px;
+    position: absolute;
+    top: 50px;
+    right: 200px;    
+    font-size: 55px;
+    color:var(--light-color);
 }
 
-header .menu div:hover .desplegable
+ main .banner2 p
 {
-    width: 250px;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction:column;
-    gap: 5px;
-    position:absolute;
-    bottom: -290px;
-    left:-85px;
+    height: 200px;
+    width: 450px;
+    position: absolute;
+    top: 240px;
+    right: 300px;
+    font-size: 28px;
+    color:var(--light-color);
+} 
+
+main .banner2 button
+{
+    height: 55px;
+    width: 300px;
+    position: absolute;
+    top: 380px;
+    right: 400px;
+    border-radius: 10px;
+    border: none;
+    font-size: 25px;
+    color:var(--dark-color);
+}
+main .banner2 button:hover
+{
+    background-color: var(--primary-color);
+    color: var(--light-color);
+}
+    /*Fin banner2*/
+
+    /*Inicio products*/
+.products
+{
+    width: 80%;
+    height: 6000px;
+    position: relative;
+    /* background-color:violet; */
+}
+
+main .products .title
+{
+    width: 100%;
+    height: 150px;
+    padding-left: 310px;
+    padding-top: 40px;
+    /* background-color: aqua; */
+}
+
+main .products .title span
+{
+    font-size: 34px;
+}
+
+main .products .title h2
+{
+    margin-top: 5px;
+    font-size: 59px;
+}
+
+main .products .caja_products
+{
+    display: flex; 
+    gap: 15px;
+    padding: 60px; 
+}
+
+main .products .product_image1,.product_image2,.product_image3 
+{
+    width: 380px;   
+    height:500px;
+    position: relative;
+    left: 25px;
+    border-radius: 5px;
+    /* background-color: #eb5757;  */
+}
+
+main .products .product_image1
+{
+    background-image: url(img/taza2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+
+main .products .product_image2
+{
+    background-image: url(img/taza.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+
+main .products .product_image3
+{
+    background-image: url(img/mochila.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+
+main .products .name
+{
+    font-size: 16px;
+    position: absolute;
+    bottom: -50px; 
+    left: 130px;
+}
+
+main .products .parrafo1
+{
+    font-size: 13px;
+    font-weight: bolder;
+    position: absolute;
+    bottom: -80px; 
+    left: 125px;
+}
+
+
+main .products .parrafo2
+{
+    font-size: 13px;
+    font-weight: bolder;
+    position: absolute;
+    bottom: -80px; 
+    left: 150px;
+
+}
+
+main .products .parrafo3
+{
+    font-size: 13px;
+    font-weight: bolder;
+    position: absolute;
+    bottom: -80px; 
+    left: 110px;
+}
+
+main .products .parrafo4
+{
+    font-size: 13px;
+    font-weight: bolder;
+    position: absolute;
+    bottom: -80px; 
+    left: 210px;
+    color: var(--primary-color);
+    text-decoration:line-through;
+}
+
+main .products .product_image3 .sale button   
+{
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    height: 30px;
+    width: 75px;
+    border-radius: 5px;
+    border:none;
+    color: var(--light-color);
     background-color: var(--primary-color);
 }
 
-header .menu div a
+main .products .btn_detail
 {
-    height: 35px;
-    width: 75px;
-    font-size: 35px;
-    padding-top: 8px;
+    padding: 5px;
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    bottom: -120px; 
+    left: 120px;
     border-radius: 5px;
-    text-align: center;
-    text-decoration: none;
+    border: none; 
     color: var(--light-color);
-    display: inline-block;
-    transition: all 0.5s ease;
-    
+    background-color: var(--primary-color);
 }
 
-header .menu div a:hover 
+main .products .btn_details
 {
-    width: 80%;
-    background-color: var(--secondary-color);
-}
-
-header .menu div button
-{
-    width: 55px;
-    height: 45px;
+    padding: 5px;
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    bottom: -120px; 
+    left: 150px;
     border-radius: 5px;
+    border: none; 
+    color: var(--light-color);
+    background-color: var(--primary-color);
+}
+
+main .products .btn_products 
+{
+    width: 190px;
+    height: 35px;
+    font-size: 15px;
+    margin-top:120px;
+    margin-left:580px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    color:var(--light-color);
     background-color: var(--secondary-color);
-    background-image: url(img/Carrito_de_compras.svg);
-    background-repeat: no-repeat;
-    background-size: 40%;
-    background-position: center;
-    border:none;
 }
 
-header .menu div button span
+main .products .btn_detail:hover
 {
-    width: 20px;
-    height: 20px;
-    padding-top: 2px;
-    border-radius: 50%;
-    display: inline-block;
-    position: relative;
-    bottom: 20px;
-    left:22px;
-    text-align: center;
-    background-color: var(--light-color);
+    background-color: var(--secondary-color);
 }
-
-header .menu span 
+main .products .btn_details:hover
 {
-
-    width: 130px;
-    height: 50px;
-    background-image: url(img/logo.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-position: 100%;
-    /*  */
+    background-color: var(--secondary-color);
 }
 
-    /* Fin header */
+main .products .btn_products:hover
+{
+    background-color: var(--primary-color);
+}
+
+/*Fin products*/
+
+
+/*Fin main*/
+
 }
 
 /* @media fin*/
