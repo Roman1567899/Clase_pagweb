@@ -931,530 +931,525 @@ footer p a
     /*Fin banner*/
 
     /*Inicio info*/
-main .info
-{   
-    width: 80%;
-    height: 100%;
-} 
+    main .info
+    {   
+        width: 80%;
+        height: 100%;
+    } 
 
-main .info .way 
-{
-    width: 150%;
-    height: 200px;
-    display: inline-block;
-}
-main .info .way .titles 
-{
-    position: relative;
-    width: 50%;
-    height: 100%;
-    background-color: #fff;
-}
+    main .info .way 
+    {
+        width: 150%;
+        height: 200px;
+        display: inline-block;
+    }
+    main .info .way .titles 
+    {
+        position: relative;
+        width: 50%;
+        height: 100%;
+        background-color: #fff;
+    }
 
-main .info .way .titles span 
-{
-    position: absolute;
-    top: 40px;
-    left: 310px;
-    font-size: 40px;
-}
+    main .info .way .titles span 
+    {
+        position: absolute;
+        top: 40px;
+        left: 310px;
+        font-size: 40px;
+    }
 
-main .info .way .titles h2
-{
-    position: absolute;
-    top: 75px;
-    left: 300px; 
-    font-size: 65px;
-}
+    main .info .way .titles h2
+    {
+        position: absolute;
+        top: 75px;
+        left: 300px; 
+        font-size: 65px;
+    }
 
-main .info .way .info2
-{
-    height: 65%;
-    width: 50%;
-    margin-left:  130px;
-    padding-top: 20px;
-    font-size: 35px;
-    background-color: #fff;
-}
+    main .info .way .info2
+    {
+        height: 65%;
+        width: 50%;
+        margin-left:  130px;
+        padding-top: 20px;
+        font-size: 35px;
+        background-color: #fff;
+    }
 
-main .container_cuadro
-{
-    width: 100%;
-    height: 100%;
-    display:inline-block;
-    padding:10px 40px;
-}
+    main .container_cuadro
+    {
+        width: 100%;
+        height: 100%;
+        display:inline-block;
+        padding:10px 40px;
+    }
 
-main .container_cuadro article .cuadros
-{
-    margin: 5px 250px;
-    height: 350px;
-    width: 330px;
-    border-radius: 5px;
-    background-color: var(--secondary-color);
-}
-main .container_cuadro article .cuadros .numbers
-{
-    position: relative;
-    top: 40px;
-    left:30px;
-    font-size: 40px;
-    color: var(--light-color);   
-}
+    main .container_cuadro article .cuadros
+    {
+        margin: 5px 250px;
+        height: 350px;
+        width: 330px;
+        border-radius: 5px;
+        background-color: var(--secondary-color);
+    }
+    main .container_cuadro article .cuadros .numbers
+    {
+        position: relative;
+        top: 40px;
+        left:30px;
+        font-size: 40px;
+        color: var(--light-color);   
+    }
 
-main .container_cuadro article .cuadros .hs
-{
-    position: relative;
-    top: 90px;
-    left:5px;
-    text-align: center;
-    font-size: 40px;
-    color: var(--light-color);
-}
+    main .container_cuadro article .cuadros .hs
+    {
+        position: relative;
+        top: 90px;
+        left:5px;
+        text-align: center;
+        font-size: 40px;
+        color: var(--light-color);
+    }
 
-main .container_cuadro .texts
-{
-    font-size: 35px;
-    position: relative;
-    bottom: 100px;  
-    left: 250px;
-    margin: 10px 0 150px 0;
-    padding-bottom: 20px;
-    height: 100px;
-    width: 330px;
-    color: var(--dark-color);    
-}
+    main .container_cuadro .texts
+    {
+        font-size: 35px;
+        position: relative;
+        bottom: 100px;  
+        left: 250px;
+        margin: 10px 0 150px 0;
+        padding-bottom: 20px;
+        height: 100px;
+        width: 330px;
+        color: var(--dark-color);    
+    }
 
-main .container_cuadro article .img
-{
-    position: relative;
-    left: 500px;
-    bottom: 95px;
-    width: 20px;
-    height: 90px;
-    background-repeat:no-repeat;
+    main .container_cuadro article .img
+    {
+        position: relative;
+        left: 500px;
+        bottom: 95px;
+        width: 20px;
+        height: 90px;
+        background-repeat:no-repeat;
     
-}
+    }
 
-main .container_cuadro article .img_triangule
-{
-    position: relative;
-    left: 445px;
-    bottom: 95px;
-    width: 20px;
-    height: 90px;
-    background-repeat:no-repeat;
-}
+    main .container_cuadro article .img_triangule
+    {
+        position: relative;
+        left: 445px;
+        bottom: 95px;
+        width: 20px;
+        height: 90px;
+        background-repeat:no-repeat;
+    }
     /*Inicio info*/
 
     /*inicio banner2*/
-main .banner2
-{
-    position:relative;
-    width: 75%;
-    height: 500px;
-    background-image: url(img/banner2.jpg);
-    background-repeat: no-repeat;
-    background-size: 200%;
-    background-position: center;
-}
+    main .banner2
+    {
+        position:relative;
+        width: 75%;
+        height: 500px;
+        background-image: url(img/banner2.jpg);
+        background-repeat: no-repeat;
+        background-size: 200%;
+        background-position: center;
+    }
 
-main .banner2 h2
-{
-    height: 100px;
-    width: 550px;
-    position: absolute;
-    top: 50px;
-    right: 200px;    
-    font-size: 55px;
-    color:var(--light-color);
-}
+    main .banner2 h2
+    {
+        height: 100px;
+        width: 550px;
+        position: absolute;
+        top: 50px;
+        right: 200px;    
+        font-size: 55px;
+        color:var(--light-color);
+    }
 
- main .banner2 p
-{
-    height: 200px;
-    width: 450px;
-    position: absolute;
-    top: 240px;
-    right: 300px;
-    font-size: 28px;
-    color:var(--light-color);
-} 
+    main .banner2 p
+    {
+        height: 200px;
+        width: 450px;
+        position: absolute;
+        top: 240px;
+        right: 300px;
+        font-size: 28px;
+        color:var(--light-color);
+    } 
 
-main .banner2 button
-{
-    height: 55px;
-    width: 300px;
-    position: absolute;
-    top: 380px;
-    right: 400px;
-    border-radius: 10px;
-    border: none;
-    font-size: 25px;
-    color:var(--dark-color);
-}
-main .banner2 button:hover
-{
-    background-color: var(--primary-color);
-    color: var(--light-color);
-}
+    main .banner2 button
+    {
+        height: 55px;
+        width: 300px;
+        position: absolute;
+        top: 380px;
+        right: 400px;
+        border-radius: 10px;
+        border: none;
+        font-size: 25px;
+        color:var(--dark-color);
+    }
+    main .banner2 button:hover
+    {
+        background-color: var(--primary-color);
+        color: var(--light-color);
+    }
     /*Fin banner2*/
 
     /*Inicio products*/
-.products
-{
-    width: 80%;
-    height: 2570px;
-    position: relative;
-    /* background-color:violet;  */
-}
+    .products
+    {
+        width: 80%;
+        height: 2570px;
+        position: relative;
+        /* background-color:violet;  */
+    }
 
-main .products .title
-{
-    width: 100%;
-    height: 150px;
-    padding-left: 310px;
-    padding-top: 40px;
-    /* background-color: aqua; */
-}
+    main .products .title
+    {
+        width: 100%;
+        height: 150px;
+        padding-left: 310px;
+        padding-top: 40px;
+        /* background-color: aqua; */
+    }
 
-main .products .title span
-{
-    font-size: 34px;
-}
+    main .products .title span
+    {
+        font-size: 34px;
+    }
 
-main .products .title h2
-{
-    margin-top: 5px;
-    font-size: 59px;
-}
+    main .products .title h2
+    {
+        margin-top: 5px;
+        font-size: 59px;
+    }
 
-main .products .caja_products
-{
-    display: flex; 
-    flex-direction:row;
-    gap: 0 5px;
-    padding: 60px; 
-}
+    main .products .caja_products
+    {
+        display: flex; 
+        flex-direction:row;
+        gap: 0 5px;
+        padding: 60px; 
+    }
 
-main .products .product_image1,.product_image2,.product_image3 
-{
-    width: 420px;   
-    height:500px;
-    position: relative;
-    
-    border-radius: 5px;
-    /* background-color: #eb5757;  */
-}
+    main .products .product_image1,.product_image2,.product_image3 
+    {   
+        width: 420px;   
+        height:500px;
+        position: relative;
+        border-radius: 5px;
+        /* background-color: #eb5757;  */
+    }
 
-main .products .product_image1
-{
+    main .products .product_image1
+    {   
     left: 200px;
     background-image: url(img/taza2.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     background-position:center;
-}
+    }
 
-main .products .product_image2
-{
-    top: 700px;
-    left: -140px;
-    background-image: url(img/taza.jpg);
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position:center;
-}
+    main .products .product_image2
+    {
+        top: 700px;
+        left: -140px;
+        background-image: url(img/taza.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position:center;
+    }   
 
-main .products .product_image3
-{
-    top: 1480px;
-    left: -470px;
-    background-image: url(img/mochila.jpg);
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position:center;
-}
+    main .products .product_image3
+    {   
+        top: 1480px;
+        left: -470px;
+        background-image: url(img/mochila.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position:center;
+    }
 
-main .products .product_image1 .name
-{
-    font-size: 46px;
-    text-align: center;
-    position: absolute;
-    bottom: -60px; 
-    left: 40px;
+    main .products .product_image1 .name
+    {
+        font-size: 46px;
+        text-align: center;
+        position: absolute;
+        bottom: -60px; 
+        left: 40px;
    
-}
+    }
 
-main .products .product_image2 .name
-{
-    font-size: 46px;
-    text-align: center;
-    position: absolute;
-    bottom: -113px; 
-    left: 0px;
-   
-}
+    main .products .product_image2 .name
+        {
+        font-size: 46px;
+        text-align: center;
+        position: absolute;
+        bottom: -113px; 
+        left: 0px;
+    }
 
-main .products .product_image3 .name
-{
-    text-align: center;
-    font-size: 46px;
-    position: absolute;
-    bottom: -110px; 
-    left: 0px;
-    
-}
+    main .products .product_image3 .name
+    {
+        text-align: center;
+        font-size: 46px;
+        position: absolute;
+        bottom: -110px; 
+        left: 0px;
+    }
 
-main .products .parrafo1
-{
-    font-size: 33px;
-
-    font-weight: bolder;
-    position: absolute;
-    bottom: -100px; 
-    left: 40px;
-}
+    main .products .parrafo1
+    {
+        font-size: 33px;
+        font-weight: bolder;
+        position: absolute;
+        bottom: -100px; 
+        left: 40px;
+    }
 
 
-main .products .parrafo2
-{
+    main .products .parrafo2
+    {   
     font-size: 33px;
     font-weight: bolder;
     position: absolute;
     bottom: -150px; 
     left: 50px;
 
-}
+    }
 
-main .products .parrafo3
-{
+    main .products .parrafo3
+    {   
     font-size: 33px;
     font-weight: bolder;
     position: absolute;
     bottom: -150px; 
     left: -50px;
-}
+    }
 
-main .products .parrafo4
-{
-    width: 250px;
-    height: 50px;
-    font-size: 33px;
-    font-weight: bolder;
-    position: absolute;
-    bottom: -160px; 
-    left:160px;
-    color: var(--primary-color);
-    text-decoration:line-through;
-}
+    main .products .parrafo4
+    {
+        width: 250px;
+        height: 50px;
+        font-size: 33px;
+        font-weight: bolder;
+        position: absolute;
+        bottom: -160px; 
+        left:160px;
+        color: var(--primary-color);
+        text-decoration:line-through;
+    }
 
-main .products .product_image3 .sale button   
-{
-    position: absolute;
-    top: 25px;
-    right: 20px;
-    height: 30px;
-    width: 75px;
-    border-radius: 5px;
-    border:none;
-    color: var(--light-color);
-    background-color: var(--primary-color);
-}
+    main .products .product_image3 .sale button   
+    {
+        position: absolute;
+        top: 25px;
+        right: 20px;
+        height: 30px;
+        width: 75px;
+        border-radius: 5px;
+        border:none;
+        color: var(--light-color);
+        background-color: var(--primary-color);
+    }
 
-main .products .btn_detail
-{
-    font-size: 30px;
-    padding: 10px;
-    width: 150px;
-    height: 60px;
-    position: absolute;
-    bottom: -160px; 
-    left: 80px;
-    border-radius: 5px;
-    border: none; 
-    color: var(--light-color);
-    background-color: var(--primary-color);
-}
+    main .products .btn_detail
+    {
+        font-size: 30px;
+        padding: 10px;
+        width: 150px;
+        height: 60px;
+        position: absolute;
+        bottom: -160px; 
+        left: 80px;
+        border-radius: 5px;
+        border: none; 
+        color: var(--light-color);
+        background-color: var(--primary-color);
+    }
 
-main .products .btn_details
-{
-    font-size: 30px;
-    padding: 5px;
-    width: 150px;
-    height: 60px;
-    position: absolute;
-    bottom: -220px; 
-    left: 90px;
-    border-radius: 10px;
-    border: none; 
-    color: var(--light-color);
-    background-color: var(--primary-color);
-}
+    main .products .btn_details
+    {
+        font-size: 30px;
+        padding: 5px;
+        width: 150px;
+        height: 60px;
+        position: absolute;
+        bottom: -220px; 
+        left: 90px;
+        border-radius: 10px;
+        border: none; 
+        color: var(--light-color);
+        background-color: var(--primary-color);
+    }
 
-main .products .btn_products 
-{
-    width: 300px;
-    height: 75px;
-    font-size: 30px;
-    margin-top:1700px;
-    margin-left:260px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    border: none;
-    color:var(--light-color);
-    background-color: var(--secondary-color);
-}
+    main .products .btn_products 
+    {
+        width: 300px;
+        height: 75px;
+        font-size: 30px;
+        margin-top:1700px;
+        margin-left:260px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        border: none;
+        color:var(--light-color);
+        background-color: var(--secondary-color);
+    }
 
-main .products .btn_detail:hover
-{
-    background-color: var(--secondary-color);
-}
-main .products .btn_details:hover
-{
-    background-color: var(--secondary-color);
-}
+    main .products .btn_detail:hover
+    {
+        background-color: var(--secondary-color);
+    }
+    main .products .btn_details:hover
+    {
+        background-color: var(--secondary-color);
+    }
 
-main .products .btn_products:hover
-{
-    background-color: var(--primary-color);
-}
-/*Fin products*/
+    main .products .btn_products:hover
+    {
+        background-color: var(--primary-color);
+    }
+    /*Fin products*/
 
-/*Inicio banner3*/
-main .banner3
-{
-    width: 80%;
-    height: 1900px;
-    display: flex;
-    /* background-color: aqua; */
-}
+    /*Inicio banner3*/
+    main .banner3
+    {
+        width: 80%;
+        height: 1900px;
+        display: flex;
+        /* background-color: aqua; */
+    }
 
-main .banner3 .inf
-{
-    position: relative;
-    left: 110px;
-    width:750px;
-    height:1900px;
-    background-color: var(--secondary-color);
-}
+    main .banner3 .inf
+    {
+        position: relative;
+        left: 110px;
+        width:750px;
+        height:1900px;
+        background-color: var(--secondary-color);
+    }
 
-main .banner3 .inf span
-{
-    position: absolute;
-    top: 10px;
-    left: 130px;
-    width: 500px;
-    height: 600px;
-    background-image: url(img/Mujer.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
+    main .banner3 .inf span
+    {
+        position: absolute;
+        top: 10px;
+        left: 130px;
+        width: 500px;
+        height: 600px;
+        background-image: url(img/Mujer.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
 
-main .banner3 .inf h2
-{
-    position: absolute;
-    top:610px;
-    left: 150px;
-    font-size: 80px;
-    color: var(--light-color);
-}
+    main .banner3 .inf h2
+    {
+        position: absolute;
+        top:610px;
+        left: 150px;
+        font-size: 80px;
+        color: var(--light-color);
+    }
 
-main .banner3 .inf p
-{
-    font-size: 35px;
-    position: absolute;
-    top:750px;
-    left: 180px;
-    width: 450px;
-    color: var(--light-color);
-}
-/*Fin banner3*/
+    main .banner3 .inf p
+    {
+        font-size: 35px;
+        position: absolute;
+        top:750px;
+        left: 180px;
+        width: 450px;
+        color: var(--light-color);
+    }
+    /*Fin banner3*/
 /*Fin main*/
 
-/* Inicio footer */
-footer
-{
-    width: 260%;
-    height: 390px;
-    display: flex;
-    background-color: var(--secondary-color);
-}
+    /* Inicio footer */
+    footer
+    {
+        width: 260%;
+        height: 390px;
+        display: flex;
+        background-color: var(--secondary-color);
+    }
 
-footer span
-{
-    position: relative;
-    top: 50px;
-    left: 50px;   
-    width: 450px;
-    height: 150px;
-    background-image: url(img/logo_sin_fondo.svg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position:center ;
-}
+    footer span
+    {
+        position: relative;
+        top: 50px;
+        left: 50px;   
+        width: 450px;
+        height: 150px;
+        background-image: url(img/logo_sin_fondo.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position:center ;
+    }
 
-footer .contenedor
-{  
-    position: relative;
-    left: 800px;
-    height: 100%;
-    width: 400px;  
-}
+    footer .contenedor
+    {  
+        position: relative;
+        left: 800px;
+        height: 100%;
+        width: 400px;  
+    }
 
-footer .contenedor .redes .red1
-{
-    position: absolute;
-    top: 70px;
-    left: -650px;
-    width: 100px;
-    height: 100px;
-    background-image: url(img/logo_facebook.svg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-footer .contenedor .redes .red2
-{
-    position: absolute;
-    top: 70px;
-    left: -500px;
-    width: 100px;
-    height: 100px; 
-    background-image: url(img/logo_instagram.svg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
+    footer .contenedor .redes .red1
+    {
+        position: absolute;
+        top: 70px;
+        left: -650px;
+        width: 100px;
+        height: 100px;
+        background-image: url(img/logo_facebook.svg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    footer .contenedor .redes .red2
+    {
+        position: absolute;
+        top: 70px;
+        left: -500px;
+        width: 100px;
+        height: 100px; 
+        background-image: url(img/logo_instagram.svg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
 
-footer .contenedor .redes .red3
-{
-    position: absolute;
-    top: 70px;
-    left: -350px;
-    width: 100px;
-    height: 100px;
-    background-image: url(img/logo_twiter.svg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
+    footer .contenedor .redes .red3
+    {
+        position: absolute;
+        top: 70px;
+        left: -350px;
+        width: 100px;
+        height: 100px;
+        background-image: url(img/logo_twiter.svg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
 
-footer p
-{
-    width: 700px;
-    height: 10px;
-    position: relative;
-    top: 300px;
-    left: -200px;
-    font-size:30px;
-    color: var(--light-color);
-}
+    footer p
+    {
+        width: 700px;
+        height: 10px;
+        position: relative;
+        top: 300px;
+        left: -200px;
+        font-size:30px;
+        color: var(--light-color);
+    }
 
-footer p a
-{
-    color: var(--primary-color);
-}
-/* Fin footer */
+    footer p a
+    {
+        color: var(--primary-color);
+    }
+    /* Fin footer */
 
 }
-
 /* @media fin*/
 
