@@ -1319,11 +1319,141 @@ main .products .btn_products:hover
 {
     background-color: var(--primary-color);
 }
-
 /*Fin products*/
 
+/*Inicio banner3*/
+main .banner3
+{
+    width: 80%;
+    height: 1900px;
+    display: flex;
+    /* background-color: aqua; */
+}
 
+main .banner3 .inf
+{
+    position: relative;
+    left: 110px;
+    width:750px;
+    height:1900px;
+    background-color: var(--secondary-color);
+}
+
+main .banner3 .inf span
+{
+    position: absolute;
+    top: 10px;
+    left: 130px;
+    width: 500px;
+    height: 600px;
+    background-image: url(img/Mujer.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+main .banner3 .inf h2
+{
+    position: absolute;
+    top:610px;
+    left: 150px;
+    font-size: 80px;
+    color: var(--light-color);
+}
+
+main .banner3 .inf p
+{
+    font-size: 35px;
+    position: absolute;
+    top:750px;
+    left: 180px;
+    width: 450px;
+    color: var(--light-color);
+}
+/*Fin banner3*/
 /*Fin main*/
+
+/* Inicio footer */
+footer
+{
+    width: 260%;
+    height: 390px;
+    display: flex;
+    background-color: var(--secondary-color);
+}
+
+footer span
+{
+    position: relative;
+    top: 50px;
+    left: 50px;   
+    width: 450px;
+    height: 150px;
+    background-image: url(img/logo_sin_fondo.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position:center ;
+    background-color: aqua;
+}
+
+footer .contenedor
+{  
+    position: relative;
+    left: 800px;
+    height: 100%;
+    width: 400px;  
+}
+
+footer .contenedor .redes .red1
+{
+    position: absolute;
+    top: 70px;
+    left: -650px;
+    width: 100px;
+    height: 100px;
+    background-image: url(img/logo_facebook.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+footer .contenedor .redes .red2
+{
+    position: absolute;
+    top: 70px;
+    left: -500px;
+    width: 100px;
+    height: 100px; 
+    background-image: url(img/logo_instagram.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+footer .contenedor .redes .red3
+{
+    position: absolute;
+    top: 70px;
+    left: -350px;
+    width: 100px;
+    height: 100px;
+    background-image: url(img/logo_twiter.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+footer p
+{
+    width: 700px;
+    height: 10px;
+    position: relative;
+    top: 300px;
+    left: -200px;
+    font-size:30px;
+    color: var(--light-color);
+}
+
+footer p a
+{
+    color: var(--primary-color);
+}
+/* Fin footer */
 
 }
 
