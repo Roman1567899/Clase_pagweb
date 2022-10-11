@@ -85,3 +85,105 @@ variable1=>variable1*2;
     {
         return {nombre:articulo.nombre,costo:articulo.costo*0.8};  
     }))
+
+
+// alert("asd");
+
+let nombres=
+[
+    {
+        nombre:"Emiliano",
+        edad:25,
+        sexo:"M"
+    },
+
+    {
+        nombre:"Emmanuel",
+        edad:23,
+        sexo:"M"
+    },
+
+    {
+        nombre:"Marianeh",
+        edad:22,
+        sexo:"M"
+    },
+
+    {
+        nombre:"Magtan",
+        edad:21,
+        sexo:"M"
+    },
+
+    {
+        nombre:"Paty",
+        edad:22,
+        sexo:"F"
+    }      
+]; //Se declara un areglo
+
+let edad=nombres.filter(persona=> // genera un arreglo nuevo con los datos que cumplan con la condición
+    {
+        if(persona.edad<=23)
+        {
+            // console.log("Esta persona tiene "+persona.edad+" años");
+            return persona.edad;
+        }
+    })
+
+let sueldos=nombres.map(persona=> // Esta función modifica los datos 
+    {
+            let sueldo=0;
+            if(persona.edad<25)
+            {
+                sueldo=1000;
+            }
+            // return "Hola " + persona.nombre+ " y tienes "+persona.edad+ " años";
+            return {nombre:persona.nombre, sueldo:sueldo};
+    }) // *``* se ponen con alt gr cierre de llave
+
+let mujer=nombres.find(persona=> //Esta función 
+    {
+        if(persona.nombre.includes("y"))
+        {
+            return true
+        }
+    })
+
+nombres.forEach(persona=>
+    {
+        // console.log(persona.nombre);
+    })
+
+let gentegrande=nombres.some(persona=>
+    {
+        if(persona.edad>23 && persona.edad<26)
+        {
+            return true;
+        }
+    })
+    
+let contenedor= document.getElementById("contenedor");
+let input=document.querySelector("#input");
+let botoncito=document.querySelector("#botoncito");
+
+
+botoncito.addEventListener("click", ()=>
+{
+    contenedor.innerText=input.value;
+    contenedor.className="sombreado";
+})
+
+input.addEventListener("keyup",()=>
+{
+    if(input.value.length>3)
+    {
+        contenedor.innerText=input.value;
+        contenedor.className="exito";
+    }
+    else
+    {
+        contenedor.innerText="Texto invalido"
+        contenedor.className="falla"
+    }
+})
